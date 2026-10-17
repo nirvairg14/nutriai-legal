@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NutriAI — Support</title>
+<meta name="description" content="Help and contact for the NutriAI iOS app.">
+<style>
+  :root { --paper:#f3f7fd; --ink:#1f2937; --muted:#5b6676; --card:#fff; --line:#e3eaf3; --leaf:#22a35a; }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+    --paper:#0f1419; --ink:#e8eef5; --muted:#9aa7b5; --card:#161c23; --line:#263039; --leaf:#35c06f; } }
+  :root[data-theme="dark"] { --paper:#0f1419; --ink:#e8eef5; --muted:#9aa7b5; --card:#161c23; --line:#263039; --leaf:#35c06f; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--paper); color:var(--ink); padding:0 16px;
+    font:17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+  main { max-width:680px; margin:0 auto; padding:48px 0 96px; }
+  h1 { font-size:2rem; line-height:1.2; margin:0 0 8px; letter-spacing:-0.02em; }
+  h2 { font-size:1.2rem; margin:36px 0 10px; letter-spacing:-0.01em; }
+  p { margin:0 0 16px; } a { color:var(--leaf); }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:20px 22px; margin:0 0 28px; }
+  .card p:last-child { margin-bottom:0; }
+  footer { margin-top:48px; padding-top:24px; border-top:1px solid var(--line); color:var(--muted); font-size:.95rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>NutriAI — Support</h1>
+  <div class="card">
+    <p>Questions, bug reports or feedback: <strong>CONTACT_EMAIL_PLACEHOLDER</strong></p>
+    <p>NutriAI stores everything on your device, so please include what you were doing when something went wrong &mdash; there are no server logs for us to look at.</p>
+  </div>
+
+  <h2>Where is my data?</h2>
+  <p>On your phone, encrypted, and nowhere else. There is no account and no server. If you delete the app without exporting a backup, the data is gone and cannot be recovered &mdash; not by you, and not by us.</p>
+
+  <h2>How do I back up or move to a new phone?</h2>
+  <p>Open Privacy &amp; data, then Back up now. You choose a passphrase and the encrypted file goes wherever you send it. Restore it on the new device with the same passphrase. Keep that passphrase safe: nobody can open the file without it.</p>
+
+  <h2>A nutrition number looks wrong</h2>
+  <p>Every restaurant figure is the chain&rsquo;s own published information for your country, with the source and retrieval date shown in the app. Open that source and compare. If the chain has changed a figure, a later app update brings the new data with a new retrieval date.</p>
+
+  <h2>Why does the app need the camera or microphone?</h2>
+  <p>The camera scans barcodes, photos read a nutrition label you choose, and the microphone is for voice logging. All optional, and none of it is sent to us.</p>
+
+  <h2>Does it work offline?</h2>
+  <p>Yes. The only network request is looking up a barcode or a food search you typed, and you can turn that off entirely.</p>
+
+  <p><a href="./">Privacy policy</a></p>
+  <footer>NutriAI &mdash; nutrition tracking that keeps your data on your phone.</footer>
+</main>
+</body>
+</html>
